@@ -13,7 +13,7 @@ import java.io.*;
 				PropertyConfigurator.configure(log4jConfigFile);
 				logger.info("this is a message....:"+str);
 				logger.warn("warning message...:"+str);
-				logger.error("error message...tree:"+str);
+				logger.error("error message...tre:"+str);
 			}
 		}
 	
