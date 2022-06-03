@@ -30,7 +30,8 @@ public class Calculator {
 		for(int s:i) {
 			result=result+s;
 		}
-		System.out.printf("The result is ...:%d", result);
+		System.out.printf("The result is ...:%d", result);{
+		System.out.println("kk);
 	}
 
 //public class TestCalculator {
