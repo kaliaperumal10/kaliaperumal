@@ -31,7 +31,7 @@ public class Calculator {
 			result=result+s;
 		}
 		System.out.printf("The result is ...:%d", result);{
-		System.out.println("kk);
+		System.out.println("kk");
 	}
 
 //public class TestCalculator {
