@@ -32,7 +32,7 @@ public class Calculator {
 		}
 		System.out.printf("The result is ...:%d", result);{
 		System.out.println("kk");
-	}
+	}}
 
 //public class TestCalculator {
 	public static void main(String[] args) {

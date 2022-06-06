@@ -4,6 +4,7 @@ public class Inheritancedemo1 {
 
 	public static void main(String[] args) {
 		head h=new tail();
+		
 		System.out.println(h.name);
 		h.bottom();
 	}
@@ -22,5 +23,6 @@ class tail extends head
 {
 	public void bottom(){
 		System.out.println("bot of the sub");
+		
 	}
 }
