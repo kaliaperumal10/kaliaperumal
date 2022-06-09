@@ -1,9 +1,10 @@
 package classobjectMethod;
 
+
 public class Mutability {
 	
 	
-	public static void main(String[] args) {
+	static public  void main(String[] args) {
 		int x=10;
 		int y = x;
 		x+=10;
