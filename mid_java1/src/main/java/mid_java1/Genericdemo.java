@@ -5,16 +5,16 @@ public class Genericdemo {
 		//GoodPaintBrushVer2 gp=new GoodPaintBrushVer2();
 		//GoodPaintBrushVer3<Water> gp3=new GoodPaintBrushVer3<>();
 		GoodPaintBrushVer3<Air> gp4=new GoodPaintBrushVer3<>();
-		//Water water=new Water();
+	Water water=new Water();
 		Air dryair=new Air();
 		
-//	gp3.setObj(water);
+	//gp3.setObj(water);
 		gp4.setObj(dryair);
 		
-	//	water=(Water)gp3.getObj();
+		//water=(Water)gp3.getObj();
 		dryair=(Air)gp4.getObj();
 		
-	//	water.sprinkle();
+		//water.sprinkle();
 		dryair.dusting();
 	}
 }
