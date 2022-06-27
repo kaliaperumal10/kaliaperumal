@@ -3,7 +3,7 @@ package JDBCcon;
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.Statement;
+//import java.sql.Statement;
 import java.sql.Types;
 public class JDBCDemo8 {
 	public static void main(String[] args) throws Exception{
