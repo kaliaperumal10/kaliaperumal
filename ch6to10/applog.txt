@@ -1,0 +1,49 @@
+INFO    2022-05-19 13:41:25,808 [main] classobjectMethod.Demo1  - this is a message....:welcome to sonar
+WARN    2022-05-19 13:41:25,810 [main] classobjectMethod.Demo1  - warning message...:welcome to sonar
+ERROR   2022-05-19 13:41:25,810 [main] classobjectMethod.Demo1  - error message...tre:welcome to sonar
+INFO    2022-05-19 14:12:16,424 [main] classobjectMethod.Demo1  - this is a message....:welcome to sonar
+INFO    2022-05-19 14:18:11,958 [main] classobjectMethod.Demo1  - this is a message....:welcome to sonar
+INFO    2022-05-19 14:18:37,227 [main] classobjectMethod.Demo1  - this is a message....:welcome to sonar
+INFO    2022-05-19 14:19:23,388 [main] classobjectMethod.Demo1  - this is a message....:welcome to sonar
+INFO    2022-05-19 14:20:03,178 [main] classobjectMethod.Student  - the id is8
+INFO    2022-05-19 14:20:03,180 [main] classobjectMethod.Demo1  - this is a message....:welcome to sonar
+INFO    2022-05-19 15:57:58,230 [main] classobjectMethod.Student  - the id is 8
+INFO    2022-05-19 15:57:58,232 [main] classobjectMethod.Student  - Name of Studentyoga
+INFO    2022-05-19 15:57:58,232 [main] classobjectMethod.Demo1  - this is a message....:welcome to sonar
+INFO    2022-05-19 16:03:18,149 [main] classobjectMethod.Student  - 8.5
+INFO    2022-05-19 16:03:18,153 [main] classobjectMethod.Student  - the id is 8
+INFO    2022-05-19 16:03:18,153 [main] classobjectMethod.Student  - Name of Studentyoga
+INFO    2022-05-19 16:03:18,153 [main] classobjectMethod.Demo1  - this is a message....:welcome to sonar
+INFO    2022-05-19 17:26:54,264 [main] classobjectMethod.Student  - 8.5
+INFO    2022-05-19 17:26:54,268 [main] classobjectMethod.Student  - the id is 8
+INFO    2022-05-19 17:26:54,268 [main] classobjectMethod.Student  - Name of Studentyoga
+INFO    2022-05-19 17:26:54,268 [main] classobjectMethod.Student  - Array[I@1e965684
+INFO    2022-05-19 17:26:54,268 [main] classobjectMethod.Demo1  - this is a message....:welcome to sonar
+INFO    2022-05-19 17:33:38,623 [main] classobjectMethod.Student  - 8.5
+INFO    2022-05-19 17:33:38,627 [main] classobjectMethod.Student  - the id is 8
+INFO    2022-05-19 17:33:38,627 [main] classobjectMethod.Student  - Name of Studentyoga
+INFO    2022-05-19 17:33:38,627 [main] classobjectMethod.Student  - Array1
+INFO    2022-05-19 17:33:38,627 [main] classobjectMethod.Student  - Array2
+INFO    2022-05-19 17:33:38,627 [main] classobjectMethod.Student  - Array3
+INFO    2022-05-19 17:33:38,627 [main] classobjectMethod.Demo1  - this is a message....:welcome to sonar
+INFO    2022-05-19 17:36:05,279 [main] classobjectMethod.Student  - 8.5
+INFO    2022-05-19 17:36:05,283 [main] classobjectMethod.Student  - the id is 8
+INFO    2022-05-19 17:36:05,283 [main] classobjectMethod.Student  - Name of Studentyoga
+INFO    2022-05-19 17:36:05,283 [main] classobjectMethod.Student  - Array :1
+INFO    2022-05-19 17:36:05,283 [main] classobjectMethod.Student  - Array :2
+INFO    2022-05-19 17:36:05,283 [main] classobjectMethod.Student  - Array :3
+INFO    2022-05-19 17:36:05,284 [main] classobjectMethod.Demo1  - this is a message....:welcome to sonar
+INFO    2022-05-20 10:09:57,244 [main] classobjectMethod.Student  - 8.5
+INFO    2022-05-20 10:09:57,249 [main] classobjectMethod.Student  - the id is 8
+INFO    2022-05-20 10:09:57,249 [main] classobjectMethod.Student  - Name of Studentyoga
+INFO    2022-05-20 10:09:57,249 [main] classobjectMethod.Student  - Array :1
+INFO    2022-05-20 10:09:57,249 [main] classobjectMethod.Student  - Array :2
+INFO    2022-05-20 10:09:57,250 [main] classobjectMethod.Student  - Array :3
+INFO    2022-05-20 10:09:57,250 [main] classobjectMethod.Demo1  - 30
+INFO    2022-05-20 10:46:18,399 [main] classobjectMethod.Student  - 8.5
+INFO    2022-05-20 10:46:18,403 [main] classobjectMethod.Student  - the id is 8
+INFO    2022-05-20 10:46:18,403 [main] classobjectMethod.Student  - Name of Studentyoga
+INFO    2022-05-20 10:46:18,403 [main] classobjectMethod.Student  - Array :1
+INFO    2022-05-20 10:46:18,403 [main] classobjectMethod.Student  - Array :2
+INFO    2022-05-20 10:46:18,403 [main] classobjectMethod.Student  - Array :3
+INFO    2022-05-20 10:46:18,403 [main] classobjectMethod.Demo1  - 30
