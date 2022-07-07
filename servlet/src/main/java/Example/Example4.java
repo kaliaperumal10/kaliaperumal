@@ -16,6 +16,7 @@ public class Example4 extends HttpServlet {
            Class.forName("com.mysql.cj.jdbc.Driver");
            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/anoud","root","root");
            st = con.prepareStatement("Insert into emp values(?,?)");
+           System.out.println(con.prepareStatement("select * from emp"));
           
            }           catch( Exception e)
            { }     }
