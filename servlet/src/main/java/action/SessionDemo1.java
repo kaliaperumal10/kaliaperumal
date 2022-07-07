@@ -55,7 +55,7 @@ public class SessionDemo1 extends HttpServlet
                "<table border=\"1\" align=\"center\">\n" +
                "<tr bgcolor=\"#eadf8c\">\n" +
                "<th>Session info</th><th>value</th></tr>\n" +
-               "<tr>\n" +
+               "<tr>\n"  + 
                "  <td>id</td>\n" +
                "  <td>" + session.getId() + "</td></tr>\n" +
                "<tr>\n" +
