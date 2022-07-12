@@ -194,7 +194,7 @@ public boolean RegisterUser(UserDIO user) {
 		
 		System.out.println(db.checkFlag("deva"));
 		
-		System.out.println(db.updateFlag(1,"deva"));
+		System.out.println(db.updateFlag(0,"deva"));
 		
 		System.out.println(db.RegisterUser(user));
 		

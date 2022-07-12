@@ -21,7 +21,7 @@
 
 
 <hr>
-<input type="submit" value="null">
+<input type="submit" value="submit">
 </form>
 
 </body>
