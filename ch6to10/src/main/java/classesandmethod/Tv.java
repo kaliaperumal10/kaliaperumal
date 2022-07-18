@@ -1,10 +1,4 @@
 package classesandmethod;
-public class Tv {
-	public static void main(String[] args) {
-	Cn result=new Cn.Role("1psc ", "wholecheese").attack(true).run(true).build();
-	System.out.println(result);
-	System.out.println(result.cat()+" "+result.rat()+" "+result.attack()+" "+result.run());
-	}}
 class Cn{
 	private String TOM;
 	private String JERRY;
@@ -44,4 +38,10 @@ class Cn{
 			this.Run=run;
 			return this;	}
 		public Cn build(){	return new Cn(this);		
-		} 	} }
+		} 	} 
+	public class Tv {
+		public static void main(String[] args) {
+		Cn result=new Cn.Role("1psc ", "wholecheese").attack(true).run(true).build();
+		System.out.println(result);
+		System.out.println(result.cat()+" "+result.rat()+" "+result.attack()+" "+result.run());
+		}}}

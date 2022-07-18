@@ -1,14 +1,5 @@
 package classesandmethod;
-public class TemplateMethod {	
-	public static void main(String[] args) {			
-		HouseTemplate houseType = new WoodenHouse();
-				//using template method
-		houseType.buildHouse();
-		System.out.println("************");
-		houseType = new GlassHouse();
-		houseType.buildHouse();
-	}	
-}
+
 abstract class HouseTemplate {
 //template method, final so subclasses can't override
 public final void buildHouse(){
@@ -27,8 +18,7 @@ public abstract void buildWalls();
 public abstract void buildPillars();
 private void buildFoundation() {
 	System.out.println("Building foundation with cement,iron rods and sand");
-}
-}
+}}
 class GlassHouse extends HouseTemplate {
 @Override
 public void buildWalls() {
@@ -37,8 +27,7 @@ public void buildWalls() {
 @Override
 public void buildPillars() {
 	System.out.println("Building Pillars with glass coating");
-}
-}
+}}
 class WoodenHouse extends HouseTemplate {
 @Override
 public void buildWalls() {
@@ -47,5 +36,13 @@ public void buildWalls() {
 @Override
 public void buildPillars() {
 	System.out.println("Building Pillars with Wood coating");
-}
-}
+}}
+public class TemplateMethod {	
+	public static void main(String[] args) {			
+		HouseTemplate houseType = new WoodenHouse();
+				//using template method
+		houseType.buildHouse();
+		System.out.println("************");
+		HouseTemplate houseType1 = new GlassHouse();
+		houseType1.buildHouse();
+	}	}
