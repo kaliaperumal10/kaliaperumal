@@ -12,20 +12,20 @@ public class CRUD {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/anoud", "root", "root");
 		int R;
-		Statement stmt = con.createStatement();
-   		String sql = "CREATE TABLE std1 " + "(rollno INTEGER not NULL, " +"name VARCHAR(255), " + " address VARCHAR(255), " + "section VARCHAR(255))"; 
-		stmt.executeUpdate(sql);
-		System.out.println("Created table in given database...");
+//		Statement statement1 = con.createStatement();
+//   		String sql = "CREATE TABLE std1 " + "(rollno INTEGER not NULL, " +"name VARCHAR(255), " + " address VARCHAR(255), " + "section VARCHAR(255))"; 
+//		statement1.executeUpdate(sql);
+//		System.out.println("Created table in given database...");
 		
 		//Insert
 		String sql1 = "INSERT INTO Std1 (rollno, name, address,section) VALUES (?, ?, ?, ?)";
 		PreparedStatement statement1 = con.prepareStatement(sql1);
 		
-		statement1.setInt(1, 1);
+		statement1.setInt(1, 17);
 		statement1.setString(2, "lion");
 		statement1.setString(3, "fort");
-		statement1.setString(4, "12-a");
-		System.out.println(statement1);
+		statement1.setString(4, "11-a");
+		System.out.println(statement1.executeUpdate());
 		R = statement1.executeUpdate(
 				"INSERT INTO Std1 VALUES (5, 'Raja', 'lenin st', '10-a')");
 		System.out.println(R);
