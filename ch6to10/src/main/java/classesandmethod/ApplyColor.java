@@ -7,12 +7,12 @@ public class ApplyColor {
 	figure.insertcolor();
 	Figure figure2=new Cube(new Redcolor());
 	figure2.insertcolor();
-	
-	
-
 	}
-
 }
+interface Color{
+	 public void fillcolor(); 
+		
+	}
 class Pinkcolor implements Color{
 	@Override
 	public void fillcolor() {
@@ -25,10 +25,7 @@ class Redcolor implements Color{
 System.out.println("Red");		
 	}
 }
-interface Color{
-	 public void fillcolor(); 
-		
-	}
+
 abstract class Figure{
 	protected Color color;
 	public Figure(Color c) {
@@ -50,7 +47,7 @@ class Trapizium extends Figure{
 	class Cube extends Figure{
 public Cube(Color c) {
 	super(c);
-	
+
 }
 @Override
 		public void insertcolor() {
