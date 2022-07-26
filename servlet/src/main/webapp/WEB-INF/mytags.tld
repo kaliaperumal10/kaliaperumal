@@ -8,13 +8,14 @@
   <shortname>my tag library</shortname>
   
   <tag>
-    <name>checkNumber</name>
-    <tagclass>action.NumberChecking</tagclass>
+   
+    <name>Factorial</name>
+    <tagclass>action.Factorial</tagclass>
     <bodycontent>empty</bodycontent>
     <attribute>
       <name>number</name>
-      <required>true</required>
-      <rtexprvalue>true</rtexprvalue>
+       <required>true</required>
+       <rtexprvalue>true</rtexprvalue>
     </attribute>
   </tag>
  
