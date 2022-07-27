@@ -14,8 +14,8 @@ public class JDBCDemo2 {
 		String sql="update users set flag=?  where amount=?";
 		PreparedStatement stmt=con.prepareStatement(sql);
 		
-		stmt.setInt(1,20);	//1-condition 4-flag
-		stmt.setInt(2,1900);//2-condition 1500-amount
+		stmt.setInt(1,0);	//1-condition 4-flag
+		stmt.setInt(2,1122);//2-condition 1500-amount
 		int noofrowschanged=stmt.executeUpdate();
 		
 		//step 4 - process result

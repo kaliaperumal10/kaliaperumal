@@ -112,6 +112,7 @@ public class DBCon {
 		
 			String query="Update shoppingpage set flag=? where uname=?";
 			
+			
 			PreparedStatement ps=con.prepareStatement(query);
 			
 			ps.setInt(1, flag);
@@ -177,7 +178,39 @@ public boolean RegisterUser(UserDIO user) {
 		}
 		
 	}
+public boolean DisplayUser(UserDIO user) {
 	
+	try {
+		
+		Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/anoud","root","root");
+		
+		String query="select * from shoppingpage)";
+		
+		PreparedStatement ps=con.prepareStatement(query);
+		
+		
+		
+		int rs=ps.executeUpdate();
+		
+		if(rs>0) {
+			
+			return true;
+			
+		}else {
+			
+			return false;
+			
+		}
+		
+	} catch (SQLException e) {
+		
+		e.printStackTrace();
+		
+		return false;
+		
+	}
+	
+}
 	public static void main(String[] args) {
 		
 		DBCon db=new DBCon();
