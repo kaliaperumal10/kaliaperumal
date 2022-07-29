@@ -13,19 +13,19 @@ public class BasicController {
 	public void sayhello() {
 		System.out.println("say Hello....");
 	}
-//	@RequestMapping(method = RequestMethod.GET, value = "/hello2")
-//	public void sayHello2(@RequestParam("name")String uname,@RequestParam("pass")String upass) {
-//		System.out.println("say hello method...."+uname+":"+upass);
-//	}
-//	
-//	@RequestMapping(method = RequestMethod.GET, value = "/hello3/{myp}")
-//	public void sayHello3(@PathVariable("myp") String mypath) {
-//		System.out.println("say hello method...."+mypath);
-//	}
-//	
-//	@RequestMapping(method = RequestMethod.GET, value = "/hello4/{myp}/{myw}")
-//	public void sayHello3(@PathVariable("myp") String mypath,@PathVariable("myw") String mywife) {
-//		System.out.println("say hello method...."+mypath+":"+mywife);
-//	}
-//	
+	@RequestMapping(method = RequestMethod.GET, value = "/hello2")
+	public void sayHello2(@RequestParam("name")String uname,@RequestParam("pass")String upass) {
+		System.out.println("say hello method...."+uname+":"+upass);
+	}
+	
+	@RequestMapping(method = RequestMethod.GET, value = "/hello3/{myp}")
+	public void sayHello3(@PathVariable("myp") String mypath) {
+		System.out.println("say hello method...."+mypath);
+	}
+	
+	@RequestMapping(method = RequestMethod.GET, value = "/hello4/{myp}/{myw}")
+	public void sayHello3(@PathVariable("myp") String mypath,@PathVariable("myw") String mywife) {
+		System.out.println("say hello method...."+mypath+":"+mywife);
+	}
+	
 }

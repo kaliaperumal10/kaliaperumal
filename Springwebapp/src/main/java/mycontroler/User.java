@@ -4,7 +4,7 @@ import javax.validation.constraints.Size;
 
 
 public class User {
-	@Size(min = 5,max = 15)                                                                                                                                                                                                                                                                                                                                                                   
+	@Size(min = 3,max = 15)                                                                                                                                                                                                                                                                                                                                                                   
 
 	private String uname;
 private String upass,email,phone;
